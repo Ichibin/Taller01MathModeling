@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{fancyhdr} % Required for custom headers
+\usepackage{geometry} % Required for adjusting margins
+\usepackage{lipsum} % For dummy text to demonstrate header
+\usepackage{caption}     % Para personalizar captions
+\usepackage{subcaption} 
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{subfig} 
+\usepackage{tikz-qtree}
+\usetikzlibrary{trees}
+\usepackage{multirow}
+\usepackage{url}         
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{geometry}
+% \usepackage[style=ieee]{biblatex}
+% Set slightly larger margins (e.g., 2.5cm for all sides)
+\geometry{
+  a4paper,
+  left=2.5cm,
+  right=2.5cm,
+  top=2.5cm,
+  bottom=2.5cm
+}
+
+% Configure the header
+\pagestyle{fancy}
+\fancyhf{} % Clear default headers and footers
+\lhead{\small Universidad Nacional de Colombia, Facultad de Ingeniería, Modelaci\'on Mate\'atica 2025-1} % Left header
+\rhead{} % Right header (empty)
+\renewcommand{\headrulewidth}{0.4pt} % Line under header
+
+\title{Taller 01}
+\author{
+  Juan Ernesto Saavedra | jusaavedra@unal.  \\
+    Daniel Mauricio Ortiz | dortizi@unal. \\
+    Valentina Galvis Ruiz | vgalvis@unal.
+}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy} % Show header on title page
+
+
+
+
+
+\bibliographystyle{apa}
+\bibliography{text/references}
+\end{document}
