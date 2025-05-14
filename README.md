@@ -17,6 +17,13 @@ Para ejecutar la simulación principal, siga estos pasos:
 
 ## Ejecución de la Simulación de Camiones
 
+Para ejecutar el resto de simulaciones, de viento oscilante y pulsante, ejecutar: 
+  ```bash
+    python windOscillation.py
+    python pulsating.py
+    ```
+
+
 El archivo `variation.py` contiene un script que permite variar diferentes parámetros de la simulación. Para ejecutar este script y generar automáticamente las imágenes resultantes, siga estos pasos:
 
 1.  **Descarga de archivos:** Al igual que con la simulación principal, asegúrese de tener todos los archivos del repositorio en el mismo directorio.
